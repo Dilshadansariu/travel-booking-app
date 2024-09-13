@@ -30,28 +30,25 @@ button:hover {
     background-color: #218838;
 }
 
-/* Container */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Search Filter */
 .search-filter {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px #0b0b0b1a;
     margin-bottom: 20px;
 }
 
-/* Package List */
 .package-list {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px #0000001a;
     margin-bottom: 20px;
 }
 
@@ -66,7 +63,6 @@ button:hover {
     margin: 5px 0;
 }
 
-/* Package Details */
 .package-details {
     background-color: #fff;
     padding: 20px;
@@ -80,7 +76,6 @@ button:hover {
     display: inline-block;
 }
 
-/* Booking Form */
 .booking-form {
     background-color: #fff;
     padding: 20px;
@@ -100,7 +95,6 @@ table {
 
 table th,
 table td {
-    /* padding: 10px; */
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
@@ -111,8 +105,6 @@ button {
     cursor: pointer;
 }
 
-
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
